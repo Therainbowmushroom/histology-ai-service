@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual env
+venv/
+.env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Streamlit
+.streamlit/
+
+# Testing
+.pytest_cache/
+.mypy_cache/
+
+# Docker
+*.tar
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Storage
+storage/uploads/
+storage/tiles/
+
+# Models
+backend/ml/*.pth
+backend/ml/*.pt
+
+# Environment
+.env
+.env.*
+
+# Coverage
+.coverage
+htmlcov/
+
+# Build
+dist/
+build/
+
+# Celery
+celerybeat-schedule
